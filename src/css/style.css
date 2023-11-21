@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Xanh+Mono&display=swap');
+
+body {
+  font-family: 'Xanh Mono', monospace;
+  font-size: 18px;
+}
+
+h1 a {
+  text-decoration: none;
+}
+
+.container {
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .container {
+    padding: 1rem 2rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container {
+    padding: 1rem 5rem;
+  }
+
+  body {
+    font-size: 20px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container {
+    padding: 1rem 10rem;
+  }
+
+  h1 {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    padding: 1rem 15rem;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .container {
+    padding: 1rem 15rem;
+  }
+}
